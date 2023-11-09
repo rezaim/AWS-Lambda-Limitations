@@ -1,6 +1,6 @@
 # AWS-Lambda-Limitations
 
-AWS Lambda, a serverless compute service provided by Amazon Web Services, has several limitations in terms of memory and CPU that users should be aware of. These limitations may change over time, so it's important to refer to the official AWS documentation for the most up-to-date information. As of my last knowledge update in January 2022, here are some of the key limitations:
+AWS Lambda, a serverless compute service provided by Amazon Web Services, has several limitations in terms of memory and CPU that users should be aware of. These limitations may change over time, so it's important to refer to the official AWS documentation for the most up-to-date information. Below are some of the key limitations:
 
 1.  Memory:
     
@@ -25,4 +25,4 @@ AWS Lambda, a serverless compute service provided by Amazon Web Services, has se
     
     *   Lambda functions have limitations on network bandwidth, both for outbound and inbound traffic. The exact limits can depend on the specific AWS region and are subject to change over time.
 
-It's important to check the AWS Lambda documentation for the most current information on resource limitations and constraints because AWS may update these limits periodically. Additionally, AWS may offer different resource limits for different types of Lambda functions, so be sure to review the documentation for the specific type of function you are working with (e.g., AWS Lambda for Lambda@Edge, AWS Lambda for AWS Step Functions, etc.).
+So, above are some of the limitations of AWS Lambda; it is important to keep these limitations in mind while implementing your Lambda function.
